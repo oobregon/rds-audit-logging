@@ -36,10 +36,9 @@ public class EventDetailController {
 		return "POST done";
 	}
 	
-	@PostMapping (value = "/nada")
+	@GetMapping (value = "/nada")
 	public String nada() {
-		// eventDetailService.create(eventDetail);
-		return "Este POST no hace nada";
+		return "Este GET retorna nada";
 	}
 	
 	@GetMapping (value = "/saludo", produces = MediaType.TEXT_PLAIN_VALUE)
