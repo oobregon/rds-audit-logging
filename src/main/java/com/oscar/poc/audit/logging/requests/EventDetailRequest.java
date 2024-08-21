@@ -84,8 +84,8 @@ public class EventDetailRequest {
 		return this.entityId;
 	}
 
-	public void setEntitiyId(String entitiyId) {
-		this.entityId = entitiyId;
+	public void setEntitiyId(String entityId) {
+		this.entityId = entityId;
 	}
 
 	public String getEnvironmet() {
